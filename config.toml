@@ -1,3 +1,63 @@
-baseURL = "http://example.org/"
+baseURL = "https://kross.netlify.com"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Koontina Wantanasin"
+theme = "kross"
+summaryLength = "10"
+
+# Plugins
+[params.plugins]
+
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "plugins/bootstrap/bootstrap.min.css"
+  [[params.plugins.css]]
+  URL = "plugins/slick/slick.css"
+  [[params.plugins.css]]
+  URL = "plugins/themify-icons/themify-icons.css"
+
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "plugins/jQuery/jquery.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/bootstrap/bootstrap.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/slick/slick.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/shuffle/shuffle.min.js"
+
+
+# navigation
+[menu]
+    
+  [[menu.main]]
+  name = "About"
+  URL = "about"
+  weight = 2
+  
+  [[menu.main]]
+  name = "Portfolio"
+  URL = "portfolio"
+  weight = 1
+
+
+[params]
+logo = "images/logo.png"
+home = "Home"
+# Meta data
+description = "This is meta description"
+author = "Themefisher"
+# Google Analitycs
+googleAnalitycsID = "Your ID"
+
+  # Preloader
+  [params.preloader]
+  enable = true
+
+  [params.contact]
+  enable = false
+  formAction = "#" #contact form works with formspree.io
+
+  [params.footer]
+  email = "nanesis.na@gmail.com"
+  phone = "+880 2544 658 256"
+  address = "125/A, CA Commercial Area, California, USA"

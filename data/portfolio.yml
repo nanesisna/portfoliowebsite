@@ -1,0 +1,116 @@
+# portfolio filter list
+list:
+  - title : "Clipart"
+    type : "clipart"
+    
+  - title : Illustration
+    type : "illustration"
+
+  - title : Pugbu
+    type : "pugbu"
+
+# portfolio item
+item:
+  - image : "images/portfolio/clipart/1/1.jpg"
+    projectURL : "project/1"
+    projectType:
+      - type: "clipart"
+
+  - image : "images/portfolio/clipart/2/1.jpg"
+    projectURL : "project/2"
+    projectType:
+      - type: "clipart"
+
+  - image : "images/portfolio/clipart/3/1.jpg"
+    projectURL : "project/3"
+    projectType:
+      - type: "clipart"
+
+  - image : "images/portfolio/clipart/4/1.jpg"
+    projectURL : "project/4"
+    projectType:
+      - type: "clipart"
+
+  - image : "images/portfolio/clipart/5/1.jpg"
+    projectURL : "project/5"
+    projectType:
+      - type: "clipart"
+
+  - image : "images/portfolio/clipart/6/1.jpg"
+    projectURL : "project/6"
+    projectType:
+      - type: "clipart"
+      
+  - image : "images/portfolio/clipart/7/1.jpg"
+    projectURL : "project/7"
+    projectType:
+      - type: "clipart"
+
+  - image : "images/portfolio/clipart/8/1.jpg"
+    projectURL : "project/8"
+    projectType:
+      - type: "clipart"
+
+  - image : "images/portfolio/clipart/9/1.jpg"
+    projectURL : "project/9"
+    projectType:
+      - type: "clipart"
+      
+  - image : "images/portfolio/clipart/10/1.jpg"
+    projectURL : "project/10"
+    projectType:
+      - type: "clipart"
+
+  - image : "images/portfolio/clipart/11/1.jpg"
+    projectURL : "project/11"
+    projectType:
+      - type: "clipart"
+
+  - image : "images/portfolio/clipart/12/1.jpg"
+    projectURL : "project/12"
+    projectType:
+      - type: "clipart"
+      
+  - image : "images/portfolio/clipart/13/1.jpg"
+    projectURL : "project/13"
+    projectType:
+      - type: "clipart"
+
+  - image : "images/portfolio/clipart/14/1.jpg"
+    projectURL : "project/14"
+    projectType:
+      - type: "clipart"
+
+  - image : "images/portfolio/clipart/15/1.jpg"
+    projectURL : "project/15"
+    projectType:
+      - type: "clipart"      
+
+      # Nala
+
+  - image : "images/portfolio/nala/1.jpg"
+    projectURL: "project/digital-paint"
+    projectType:
+      - type: "illustration"        
+
+#Fantasy 
+      
+  - image : "images/portfolio/fantasy/1.jpg"
+    projectURL: "project/fantasy"
+    projectType:
+      - type: "illustration"     
+
+      # coloring
+
+  - image : "images/portfolio/coloring/1.jpg"
+    projectURL: "project/coloring"
+    projectType:
+      - type: "illustration"     
+
+      # Pugbu
+
+  - image : "images/portfolio/pug/1.jpg"
+    projectURL: "project/pugbu"
+    projectType:
+      - type: "illustration"
+      - type: "pugbu"           
