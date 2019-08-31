@@ -88,29 +88,37 @@ item:
 
       # Nala
 
-  - image : "images/portfolio/nala/1.jpg"
+  - image : "images/portfolio/nala/cover.jpg"
     projectURL: "project/digital-paint"
     projectType:
       - type: "illustration"        
 
 #Fantasy 
       
-  - image : "images/portfolio/fantasy/1.jpg"
+  - image : "images/portfolio/fantasy/cover.jpg"
     projectURL: "project/fantasy"
     projectType:
       - type: "illustration"     
 
       # coloring
 
-  - image : "images/portfolio/coloring/1.jpg"
+  - image : "images/portfolio/coloring/cover.jpg"
     projectURL: "project/coloring"
     projectType:
       - type: "illustration"     
 
       # Pugbu
 
-  - image : "images/portfolio/pug/1.jpg"
+  - image : "images/portfolio/pug/cover.jpg"
     projectURL: "project/pugbu"
     projectType:
       - type: "illustration"
-      - type: "pugbu"           
+      - type: "pugbu"       
+
+      #Book
+
+  - image : "images/portfolio/book/cover.jpg"
+    projectURL: "project/chinesebook"
+    projectType:
+      - type: "illustration"
+      - type: "pugbu"             
