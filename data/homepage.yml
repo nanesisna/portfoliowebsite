@@ -17,14 +17,15 @@ banner:
 # about
 about:
   enable : true
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-  button:
-    btnText : "know more"
-    URL : "/about"
+  content : "My name is Koontina Wantanasin. I am from Thailand. I've been doing digital painting for more than 10 years. What I love to do is illustration work. I like to draw fantasy art
+and cute animals with vibrant colors. I want to make the people who see my work happy."
+  # button:
+  #   btnText : "know more"
+  #   URL : "/about"
 
 # skill
 skill:
-  enable : true
+  enable : false
   skillbar:
     - title : "Web Design"
       progress : "90%"
@@ -44,7 +45,7 @@ skill:
 
 # experience
 experience:
-  enable : true
+  enable : false
   item: 
     - logo : "images/experience/icon-1.png"
       title : "Junior UX Designer"
@@ -65,25 +66,17 @@ experience:
 education:
   enable : true
   item:
-    - title : "Marters in UX Design"
-      year : "2006"
-      academy : "Masassusets Institute of Technology"
-      
-    - title : "Honours in Fine Arts"
-      year : "2004"
-      academy : "Harvard University"
-      
-    - title : "Higher Secondary Certificat"
-      year : "2000"
-      academy : "Cardiff School"
-      
     - title : "Secondary School Certificate"
-      year : "1998"
-      academy : "Cardiff School"
+      year : "2009"
+      academy : "Bangbuathong School"
+      
+    - title : "Bachelor of Fine Arts, Media Art (2nd honor)"
+      year : "2004"
+      academy : "King Mongkut's University of Technology Thonburi"
 
 # service
 service:
-  enable : true
+  enable : false
   item : 
     - title : "UI Design"
       icon : "ti-palette"
@@ -104,24 +97,27 @@ service:
 portfolio:
   enable : true
   item:
-    - image : "images/portfolio/item-1.png"
+    - image : "images/portfolio/clipart/1/1.jpg"
       projectURL : "#"
       
-    - image : "images/portfolio/item-2.png"
+    - image : "images/portfolio/clipart/2/1.jpg"
       projectURL : "#"
       
-    - image : "images/portfolio/item-3.png"
+    - image : "images/portfolio/clipart/3/1.jpg"
       projectURL : "#"
       
-    - image : "images/portfolio/item-4.png"
+    - image : "images/portfolio/clipart/4/1.jpg"
       projectURL : "#"
       
-    - image : "images/portfolio/item-5.png"
+    - image : "images/portfolio/clipart/5/1.jpg"
+      projectURL : "#"
+
+    - image : "images/portfolio/clipart/6/1.jpg"
       projectURL : "#"
 
 # testimonial
 testimonial:
-  enable : true
+  enable : false
   item:
     - name : "Jesica Gomez"
       image : "images/testimonial/client-1.png"
